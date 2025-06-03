@@ -2,7 +2,7 @@
 
 An educational mobile application for elementary art education based on modern curriculum requirements - Educational Development Study
 
-![App Screenshots](./assets/read_me/photo_2_2025-06-04_00-04-05.jpg)
+![App Screenshots](./assets/read_me/photo_3_2025-06-04_00-04-05.jpg)
 
 ## 📖 Overview
 
