@@ -147,8 +147,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **Wesam Abdul Sattar Al-Rabie**  
-- Email: wesam.alrabie@example.com
-- LinkedIn: [linkedin.com/in/wesam-alrabie](https://linkedin.com/in/wesam-alrabie)
+- Email: ameer20051975@gmail.com
+
 
 ## 🙏 Acknowledgments
 
