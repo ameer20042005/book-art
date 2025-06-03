@@ -2,7 +2,7 @@
 
 An educational mobile application for elementary art education based on modern curriculum requirements - Educational Development Study
 
-![App Screenshots](./assets/read_me/photo_2025-06-03_00-45-37.jpg)
+![App Screenshots](./assets/read_me/photo_2_2025-06-04_00-04-05.jpg)
 
 ## 📖 Overview
 
@@ -26,10 +26,10 @@ Senior Art Supervisor
 
 ## 📱 Screenshots
 
-![Home Screen](./assets/read_me/home-screen.jpg)
-![Chapter View](./assets/read_me/chapter-view.jpg)
-![Search Feature](./assets/read_me/search-feature.jpg)
-![Settings](./assets/read_me/settings.jpg)
+![Home Screen](./assets/read_me/photo_1_2025-06-04_00-04-05.jpg)
+![Chapter View](./assets/read_me/photo_2_2025-06-04_00-04-05.jpg)
+![Search Feature](./assets/read_me/photo_3_2025-06-04_00-04-05.jpg)
+![Settings](./assets/read_me/photo_4_2025-06-04_00-04-05.jpg)
 
 ## 🚀 Getting Started
 
