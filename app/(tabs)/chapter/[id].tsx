@@ -16,7 +16,7 @@ export default function ChapterScreen() {
   const handleShare = async () => {
     try {
       await Share.share({
-        message: `${chapter?.title}\n\n${chapter?.description}`,
+        message: `${chapter?.title}\n\n${chapter?.description}\n\n${chapter?.content}`,
         title: chapter?.title,
       });
     } catch (error) {
@@ -25,7 +25,9 @@ export default function ChapterScreen() {
   };
 
   const handleGoBack = () => {
-    router.back();
+    // الحل الأمثل: العودة المباشرة لصفحة الفصول
+    // هذا يضمن عدم التنقل بين الفصول عند الضغط على زر الرجوع
+    router.replace('/chapters');
   };
 
   const getFontSize = () => {

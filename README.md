@@ -1,50 +1,160 @@
-# Welcome to your Expo app 👋
+# Art Teacher's Toolkit 🎨
+
+An educational mobile application for elementary art education based on modern curriculum requirements - Educational Development Study
+
+![App Screenshots](./assets/read_me/photo_2025-06-03_00-45-37.jpg)
+
+## 📖 Overview
+
+Art Teacher's Toolkit is an educational application specifically designed for art teachers in elementary education. The app provides comprehensive, organized educational content according to the latest pedagogical methods.
+
+### Research by
+**Wesam Abdul Sattar Al-Rabie**  
+Master's in Art Education Teaching Methods  
+Senior Art Supervisor
+
+## ✨ Key Features
+
+- 📚 **Four Comprehensive Chapters** covering all aspects of art education
+- 🔍 **Advanced Search** to find content easily
+- 🌙 **Dark/Light Mode Support** for eye comfort
+- � **Customizable Font Sizes** (Small, Medium, Large)
+- 📱 **Responsive Design** works on all screen sizes
+- 🔄 **Reading Progress Tracking**
+- 📖 **Offline Reading** capability
+- 🎨 **Interactive Art Lessons**
+
+## 📱 Screenshots
+
+![Home Screen](./assets/read_me/home-screen.jpg)
+![Chapter View](./assets/read_me/chapter-view.jpg)
+![Search Feature](./assets/read_me/search-feature.jpg)
+![Settings](./assets/read_me/settings.jpg)
+
+## 🚀 Getting Started
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+### Prerequisites
 
-1. Install dependencies
+- Node.js (version 14 or higher)
+- npm or yarn
+- Expo CLI
 
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/book-art.git
+   cd book-art
+   ```
+
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Start the development server**
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. **Run on device/emulator**
+   
+   In the output, you'll find options to open the app in:
+   - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+   - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+   - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+   - [Expo Go](https://expo.dev/go)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📁 Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+book-art/
+├── app/                    # Main application screens
+├── assets/                 # Images, fonts, and other assets
+│   ├── images/            # App images and icons
+│   ├── read_me/           # README screenshots
+│   └── fonts/             # Custom fonts
+├── components/            # Reusable UI components
+├── constants/             # App constants and configurations
+├── data/                  # Book content and data files
+└── hooks/                 # Custom React hooks
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🛠️ Built With
 
-## Learn more
+- **React Native** - Mobile app framework
+- **Expo** - Development platform
+- **TypeScript** - Programming language
+- **React Navigation** - Navigation library
+- **AsyncStorage** - Local data storage
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📚 App Content
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Chapter 1: Fundamentals of Art Education
+- Basic art concepts
+- Teaching methodologies
+- Student assessment techniques
 
-## Join the community
+### Chapter 2: Practical Art Techniques
+- Drawing fundamentals
+- Color theory
+- Composition principles
 
-Join our community of developers creating universal apps.
+### Chapter 3: Classroom Management
+- Art classroom setup
+- Material organization
+- Safety guidelines
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Chapter 4: Advanced Teaching Strategies
+- Creative project ideas
+- Portfolio development
+- Exhibition planning
+
+## 🎨 Features in Detail
+
+### Theme Support
+- **Light Mode**: Clean, bright interface for daytime use
+- **Dark Mode**: Eye-friendly dark theme for low-light environments
+
+### Font Customization
+- **Small**: For detailed reading
+- **Medium**: Standard comfortable reading
+- **Large**: Enhanced accessibility
+
+### Search Functionality
+- Global search across all chapters
+- Quick content filtering
+- Bookmarking favorite sections
+
+## 🤝 Contributing
+
+We welcome contributions to improve the Art Teacher's Toolkit! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+**Wesam Abdul Sattar Al-Rabie**  
+- Email: wesam.alrabie@example.com
+- LinkedIn: [linkedin.com/in/wesam-alrabie](https://linkedin.com/in/wesam-alrabie)
+
+## 🙏 Acknowledgments
+
+- Ministry of Education for curriculum guidelines
+- Elementary art teachers for valuable feedback
+- Expo team for the excellent development platform
+- React Native community for continuous support
+
+---
+
+**Download the app and enhance your art teaching experience!** 🎨📱

@@ -3,8 +3,6 @@ export interface Chapter {
   title: string;
   description: string;
   content: string;
-  estimatedReadTime: number; // in minutes
-  difficulty: 'مبتدئ' | 'متوسط' | 'متقدم';
   tags: string[];
   progress?: number; // percentage
 }
@@ -14,8 +12,6 @@ export const chaptersData: Chapter[] = [
     id: '1',
     title: 'الفصل الأول: مقدمة',
     description: 'مقدمة في أساسيات التعلم وطرق اكتساب المعرفة',
-    estimatedReadTime: 15,
-    difficulty: 'مبتدئ',
     tags: ['أساسيات', 'تعلم', 'مقدمة'],
     content: `مرحباً بك في رحلة التعلم! في هذا الفصل، سنتعرف على أساسيات التعلم الفعال وكيفية تطوير مهاراتك الدراسية.
 
@@ -39,8 +35,6 @@ export const chaptersData: Chapter[] = [
     id: '2',
     title: 'الفصل الثاني: مفاهيم أساسية',
     description: 'المفاهيم الأساسية في عملية التعلم والفهم',
-    estimatedReadTime: 20,
-    difficulty: 'متوسط',
     tags: ['مفاهيم', 'استراتيجيات', 'تطبيق'],
     content: `في هذا الفصل سنتعمق في المفاهيم الأساسية للتعلم الفعال.
 
@@ -62,8 +56,6 @@ export const chaptersData: Chapter[] = [
     id: '3',
     title: 'الفصل الثالث: تطبيقات عملية',
     description: 'تطبيقات وتمارين عملية لتعزيز التعلم',
-    estimatedReadTime: 25,
-    difficulty: 'متوسط',
     tags: ['تطبيق', 'تمارين', 'ممارسة'],
     content: `يركز هذا الفصل على التطبيقات العملية لما تعلمناه.
 
@@ -85,8 +77,6 @@ export const chaptersData: Chapter[] = [
     id: '4',
     title: 'الفصل الرابع: تمارين',
     description: 'مجموعة من التمارين والتدريبات العملية',
-    estimatedReadTime: 30,
-    difficulty: 'متقدم',
     tags: ['تمارين', 'اختبارات', 'تقييم'],
     content: `في هذا الفصل ستجد مجموعة من التمارين والتدريبات العملية.
 
