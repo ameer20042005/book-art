@@ -33,7 +33,7 @@ export default function SearchBar({ onChapterSelect }: SearchBarProps) {
       const filtered = chapters.filter(chapter =>
         chapter.title.toLowerCase().includes(query.toLowerCase()) ||
         chapter.description.toLowerCase().includes(query.toLowerCase()) ||
-        chapter.content.toLowerCase().includes(query.toLowerCase()) ||
+        chapter.content?.toLowerCase().includes(query.toLowerCase()) ||
         chapter.tags.some(tag => tag.toLowerCase().includes(query.toLowerCase()))
       );
       setSearchResults(filtered);

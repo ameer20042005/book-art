@@ -91,8 +91,26 @@ export default function ChaptersScreen() {
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: Platform.OS === 'android' ? insets.bottom + 20 : 20 }} // Consistent padding for nav bar
       >
-        <Text style={styles.sectionTitle}>جميع الفصول</Text>
-        {chapters.map((chapter) => (
+        <Text style={styles.sectionTitle}>المقدمة</Text>
+        {chapters.filter((chapter) => chapter.id === '1').map((chapter) => (
+          <ChapterCard
+            key={chapter.id}
+            chapter={chapter}
+            onPress={() => router.push(`/chapter/${chapter.id}`)}
+          />
+        ))}
+
+        <Text style={styles.sectionTitle}>محاور حقيبة معلم التربية الفنية</Text>
+        {chapters.filter((chapter) => chapter.id === '1.1').map((chapter) => (
+          <ChapterCard
+            key={chapter.id}
+            chapter={chapter}
+            onPress={() => router.push(`/chapter/${chapter.id}`)}
+          />
+        ))}
+
+
+        {chapters.filter((chapter) => chapter.id !== '1' && chapter.id !== '1.1').map((chapter) => (
           <ChapterCard
             key={chapter.id}
             chapter={chapter}

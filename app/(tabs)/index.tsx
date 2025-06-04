@@ -184,73 +184,39 @@ export default function HomeScreen() {
         <View style={styles.welcomeSection}>
           <Text style={styles.welcomeTitle}>اعداد الباحث</Text>
           <Text style={styles.welcomeText}>
-وسام عبد الستار الربيع الفنية، ماجستير طرائق تدريس التربية الفنية، مرشد فني أقدم
+            وسام عبد الستار الربيع الفنية، ماجستير طرائق تدريس التربية الفنية،
+            مرشد فني أقدم
           </Text>
 
           <View style={styles.featuresContainer}>
             <View style={styles.featureItem}>
-              <TouchableOpacity 
+              <TouchableOpacity
+                style={styles.featureButton}
+                onPress={() => navigateToChapter("20")}
+                activeOpacity={0.7}
+              >
+                <View style={styles.featureIcon}>
+                  <Image
+                    source={require("../../assets/images/photo_2025-06-03_00-45-37.jpg")}
+                    style={{ width: 50, height: 50, borderRadius: 25 }}
+                  />
+                </View>
+                <Text style={styles.featureText}>السيرة الذاتية</Text>
+              </TouchableOpacity>
+            </View>
+            <View style={styles.featureItem}>
+              <TouchableOpacity
                 style={styles.featureButton}
                 onPress={() => navigateToChapter("1")}
                 activeOpacity={0.7}
               >
                 <View style={styles.featureIcon}>
-                  <Text style={{ color: "#ffffff", fontSize: 20 }}>📚</Text>
+                  <Image
+                    source={require("../../assets/images/photo_2025-06-03_00-45-37.jpg")}
+                    style={{ width: 50, height: 50, borderRadius: 25 }}
+                  />
                 </View>
-                <Text style={styles.featureText}>الفصل الأول</Text>
-                <Text style={[styles.featureText, { fontSize: getFontSize() - 4, marginTop: 4 }]}>
-                  مقدمة
-                </Text>
-              </TouchableOpacity>
-            </View>
-            
-            <View style={styles.featureItem}>
-              <TouchableOpacity 
-                style={styles.featureButton}
-                onPress={() => navigateToChapter("2")}
-                activeOpacity={0.7}
-              >
-                <View style={styles.featureIcon}>
-                  <Text style={{ color: "#ffffff", fontSize: 20 }}>🎯</Text>
-                </View>
-                <Text style={styles.featureText}>الفصل الثاني</Text>
-                <Text style={[styles.featureText, { fontSize: getFontSize() - 4, marginTop: 4 }]}>
-                  مفاهيم أساسية
-                </Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-
-          <View style={styles.featuresContainer}>
-            <View style={styles.featureItem}>
-              <TouchableOpacity 
-                style={styles.featureButton}
-                onPress={() => navigateToChapter("3")}
-                activeOpacity={0.7}
-              >
-                <View style={styles.featureIcon}>
-                  <Text style={{ color: "#ffffff", fontSize: 20 }}>🚀</Text>
-                </View>
-                <Text style={styles.featureText}>الفصل الثالث</Text>
-                <Text style={[styles.featureText, { fontSize: getFontSize() - 4, marginTop: 4 }]}>
-                  تطبيقات عملية
-                </Text>
-              </TouchableOpacity>
-            </View>
-            
-            <View style={styles.featureItem}>
-              <TouchableOpacity 
-                style={styles.featureButton}
-                onPress={() => navigateToChapter("4")}
-                activeOpacity={0.7}
-              >
-                <View style={styles.featureIcon}>
-                  <Text style={{ color: "#ffffff", fontSize: 20 }}>✏️</Text>
-                </View>
-                <Text style={styles.featureText}>الفصل الرابع</Text>
-                <Text style={[styles.featureText, { fontSize: getFontSize() - 4, marginTop: 4 }]}>
-                  تمارين
-                </Text>
+                <Text style={styles.featureText}> المقدمه و الهدف</Text>
               </TouchableOpacity>
             </View>
           </View>

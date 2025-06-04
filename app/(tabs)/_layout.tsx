@@ -93,7 +93,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="chapters"
         options={{
-          title: 'الفصول',
+          title: 'المحتوى',
           headerTitle: () => (
             <View style={{ width: '100%', flexDirection: 'row', justifyContent: 'flex-end', alignItems: 'center' }}>
               <Text style={{
